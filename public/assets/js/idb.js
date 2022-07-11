@@ -73,7 +73,7 @@ function uploadPizza() {
           const pizzaObjectStore = transaction.objectStore('new_pizza');
           // clear all items in your store
           pizzaObjectStore.clear();
-          alert('All saved pizza has been submitted!');
+          alert('All saved pizzas have been submitted!');
         })
         .catch(err => {
           console.log(err);
